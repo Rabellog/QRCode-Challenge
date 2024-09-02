@@ -1,0 +1,44 @@
+:root{
+    --azul-escuro:#1F314F;
+    --cinza-azul:#68778D;
+    --cinza-claro:#D5E1EF;
+    --branco:#FFFFFF;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    font-family: "Outfit", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--branco);
+    padding: 20px;
+}
+
+.text{
+    width: 288px;
+}
+
+p,h1{
+    padding: 0 13px;
+}
+
+h1{
+    color: var(--azul-escuro);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p{
+    color: var(--cinza-azul);
+    font-size: 15px;
+    font-weight: normal;
+}
